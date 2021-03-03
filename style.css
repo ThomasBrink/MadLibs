@@ -1,0 +1,67 @@
+body{
+	background-color: grey;
+}
+
+.container{
+	position: relative;
+	width: 1000px;
+	height: 700px;
+	border: 2px solid black;
+	margin: 0 auto;
+}
+
+h1{
+	position: absolute;
+	color: white;
+	text-shadow: 2px 2px black;
+	left: 70px;
+	font-size: 75px;
+	bottom: 570px;
+}
+
+.redbar{
+	position: absolute;
+	width: 1000px;
+	height: 50px;
+	top: 100px;
+	background-color: red;
+}
+
+.redbar > p{
+	display: inline-block;
+	color: white;
+	padding-left: 30px;
+}
+
+.whitefield{
+	background-color: white;
+	width: 1000px;
+	height: 525px;
+	margin-top: 100px;
+}
+
+.v1{
+	position: absolute;
+	top: 162px;
+	left: 210px;
+	width: 100px;
+	height: 10px;
+}
+
+.v2{
+	position: absolute;
+	margin-top: 100px;
+	left: 20px;
+	width: 100px;
+	height: 10px;
+}
+
+.l1{
+	position: absolute;
+	top: 160px;
+}
+
+.l2{
+	position: absolute;
+	top: 198px;
+}
